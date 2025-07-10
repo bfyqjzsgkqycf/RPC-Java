@@ -1,0 +1,5 @@
+Hessian=com.rpc.common.serializer.myserializer.HessianSerializer
+protobuf=com.rpc.common.serializer.myserializer.ProtobufSerializer
+json=com.rpc.common.serializer.myserializer.JsonSerializer
+kryo=com.rpc.common.serializer.myserializer.KryoSerializer
+jdk=com.rpc.common.serializer.myserializer.ObjectSerializer

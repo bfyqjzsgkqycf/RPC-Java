@@ -1,11 +1,11 @@
 package com.rpc.consumer;
 
 import com.rpc.common.util.ConfigUtil;
-import com.rpc.core.config.KRpcConfig;
+import com.rpc.core.config.RpcConfig;
 
 public class ConsumerTestConfig {
     public static void main(String[] args) {
-        KRpcConfig rpc = ConfigUtil.loadConfig(KRpcConfig.class, "rpc");
+        RpcConfig rpc = ConfigUtil.loadConfig(RpcConfig.class, "rpc");
         System.out.println(rpc);
     }
 
